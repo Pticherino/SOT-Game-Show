@@ -24,7 +24,17 @@ function slideToPage1() {
     window.location.href = 'index.html';
   }, 500);
 }
-  
+
+function slideToPage1FromRight() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(400%)';
+  setTimeout(() => {
+    window.location.href = 'index.html';
+  }, 500);
+}
+    
+
 function slideToPage2() {
   const container = document.querySelector('.game-container');
   container.style.transition = 'transform 0.5s ease-in-out';
@@ -75,5 +85,118 @@ function slideToPage4FromRight() {
   container.style.transform = 'translateX(400%)';
   setTimeout(() => {
     window.location.href = 'page4-right.html';
+  }, 500);
+}
+
+function slideToPage5() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page5.html';
+  }, 500);
+}
+
+function slideToPage5FromRight() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(400%)';
+  setTimeout(() => {
+    window.location.href = 'page5-right.html';
+  }, 500);
+}
+
+function slideToPage6() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page6.html';
+  }, 500);
+}
+
+function slideToPage6FromRight() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(400%)';
+  setTimeout(() => {
+    window.location.href = 'page6-right.html';
+  }, 500);
+}
+
+
+function slideToPage7() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page7.html';
+  }, 500);
+}
+
+
+function slideToPage8() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page8.html';
+  }, 500);
+}
+
+function slideToPage9() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page9.html';
+  }, 500);
+}
+function slideToPage10() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page10.html';
+  }, 500);
+}
+function slideToPage11() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page11.html';
+  }, 500);
+}
+function slideToPage12() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page12.html';
+  }, 500);
+}
+function slideToPage13() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page13.html';
+  }, 500);
+}
+function slideToPage14() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page14.html';
+  }, 500);
+}
+function slideToPage15() {
+  const container = document.querySelector('.game-container');
+  container.style.transition = 'transform 0.5s ease-in-out';
+  container.style.transform = 'translateX(-400%)';
+  setTimeout(() => {
+    window.location.href = 'page15.html';
   }, 500);
 }

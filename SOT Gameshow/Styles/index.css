@@ -70,6 +70,12 @@ body{
   border-radius: 10px;
 }
   
+.hint{
+  position: relative;
+  display: inline-block;
+  padding: 10%;
+}
+
 .swap-container{
     margin: 0;
     padding: 0; 
@@ -126,4 +132,23 @@ body{
 .game-container-right{
   animation: 0.3s ease-out 0s 1 slideInFromRight;
   
+}
+
+
+.word-left{
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #F1462B;
+  padding: 7% 5%;
+}
+.word-right{
+  display: inline-block;
+  border-radius: 0 0 15px 15px;
+  background-color: #B5BDD5;
+  padding: 10px 10px;
+}
+
+.round2-word{
+  background-color: #FDEED8;
+  padding: 1% 4%;
 }
